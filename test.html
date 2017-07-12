@@ -1,0 +1,20 @@
+<html>
+<head>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="guessLangjsEKJHZ.js"></script>
+<script language="javascript">
+function guessLangKind(){
+  console.log('hi')
+  var testVal = $('#testPhrase').val();
+  alert(guessLang.detectLang(testVal));
+}
+</script>
+</head>
+<body>fdsa
+  <input type="text" id="testPhrase"/>
+  <input type="button" id="testBtn" onclick="guessLangKind()"/>
+</body>
+</html>
